@@ -9,6 +9,7 @@ I utilize an 75/25 train/validate split. I train and fit 3 models using the firs
 |---     | ---     | ---     | ---     |
 | Validation Accuracy | 0.79 | 0.87 | 0.87 | 
 | Test Log Loss | 0.77 | 0.78 | 0.76 |
+
 While initially from the validation set it appeared Model 3 was slightly better than Model 2, in the end Model 3 was the winner, with Model 1 be slightly less good. This showed that using a drop-out layer after each pooling layer helped the model not over-fit on the training data.
 
 ## Conclusion
